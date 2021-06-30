@@ -61,7 +61,7 @@ class Login {
 
     // senha precisa ter entre 4 e 50 caracteres
     if (this.body.password.length < 8 || this.body.password.length > 20) {
-      this.errors.push('A senha precisa estar entre 8 e 20 caracteres.')
+      this.errors.push('A senha precisa ter entre 8 e 20 caracteres.')
     }
   }
 
